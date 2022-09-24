@@ -1,0 +1,276 @@
+@media (max-width: 1199px) {
+
+	/*
+	========================
+	Reuseble Components
+	========================
+	*/
+	.container,
+	.container-1,
+	.container-2 {
+		max-width: 950px;
+	}
+
+	/*
+	===========================
+	Header Section
+	===========================
+	*/
+	.banner-title h1 {
+		font-size: 49px;
+	}
+
+	/*
+	===========================
+	Highlights Section
+	===========================
+	*/
+	.highlights-title h2 {
+		font-size: 42px;
+	}
+}
+
+@media (max-width: 991px) {
+	
+	/*
+	========================
+	Reuseble Components
+	========================
+	*/
+	.container,
+	.container-1,
+	.container-2 {
+		max-width: 740px;
+	}
+	
+	/*
+	===========================
+	Header Section
+	===========================
+	*/
+	.main-menu ul li:not(:last-child) {
+		margin-right: 25px;
+	}
+
+	/*
+	===========================
+	Banner Section
+	===========================
+	*/
+	.banner-grid {
+		grid-column-gap: 50px;
+	}
+
+	.banner-title h1 {
+		font-size: 40px;
+	}
+
+	/*
+	===========================
+	Player Section
+	===========================
+	*/
+	.player-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	/*
+	===========================
+	Video Section
+	===========================
+	*/
+	.video-text h2 {
+		font-size: 26px;
+	}
+
+	/*
+	===========================
+	Highlights Section
+	===========================
+	*/
+	.highlights-grid {
+		grid-column-gap: 50px
+	}
+
+	.highlights-title h2 {
+		font-size: 33px;
+	}
+
+}
+
+@media (max-width: 767px) {
+	/*
+	========================
+	Reuseble Components
+	========================
+	*/
+	.container,
+	.container-1,
+	.container-2 {
+		max-width: 540px;
+	}
+
+	.sub-title {
+		font-size: 22px;
+	}
+
+	/*
+	===========================
+	Header Section
+	===========================
+	*/
+	.main-menu {
+		width: 100%;
+		height: 420px;
+		background: #E02C6D;
+		transition: all .4s ease-in;
+		position: absolute;
+		top: -300%;
+		left: 0;
+		padding: 30px;
+		z-index: 99;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.main-menu ul {
+		text-align: center;
+	}
+	
+	.main-menu ul li {
+		display: block;
+	}
+	
+	.main-menu ul li:not(:last-child) {
+		margin: 12px 0;
+	}
+	
+	.main-menu ul li a:hover {
+		color: #2D25A0;
+	}
+	
+	.nav-icon {
+		display: block;
+	}
+	
+	#check-btn:checked ~ .main-menu {
+		top: 0;
+	}
+	
+	/*
+	===========================
+	Banner Section
+	===========================
+	*/
+	.banner-grid {
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 70px 0px;
+	}
+
+	.banner-title h1 {
+		font-size: 50px;
+	}
+
+	/*
+	=============================
+	Highlights Section
+	=============================
+	*/
+	.highlights-grid {
+		grid-template-columns: repeat(1, 1fr);
+		grid-column-gap: 0px
+	}
+
+	.match-img-1 {
+		display: block;
+		margin: 30px 0;
+	}
+
+	.match-img-11 {
+		display: none;
+	}
+
+	.highlights-title h2 {
+		font-size: 38px;
+	}
+
+	/*
+	===========================
+	Video Section
+	===========================
+	*/
+	.video-text h2 {
+		font-size: 21px;
+	}
+}
+
+@media (max-width: 575px) {
+
+	/*
+	========================
+	Reuseble Components
+	========================
+	*/
+	section,
+	footer {
+		padding: 60px 0;
+	}
+
+	.container,
+	.container-1,
+	.container-2 {
+		width: 100%;
+		padding: 0 14px;
+	}
+
+	.sub-title h2 {
+		font-size: 27px;
+	}
+
+	/*
+	===========================
+	Banner Section
+	===========================
+	*/
+	.banner-title h1 {
+		font-size: 39px;
+	}
+
+	/*
+	===========================
+	Player Section
+	===========================
+	*/
+	.player-grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	/*
+	=============================
+	Highlights Section
+	=============================
+	*/
+	.highlights-title h2 {
+		font-size: 33px;
+	}
+
+	/*
+	===========================
+	Video Section
+	===========================
+	*/
+	.video-grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.newsletter-fild input {
+		width: 60%;
+		font-size: 16px;
+	}
+
+	.newsletter-fild button {
+		width: 40%;
+		font-size: 16px;
+	}
+}
